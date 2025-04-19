@@ -2,4 +2,3 @@
 @import "tailwindcss";
 @import "preline/variants.css";
 @plugin "@tailwindcss/forms";
-@custom-variant dark (&:where(.dark, .dark *));
