@@ -30,7 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng -- deploy --repo=https://github.com/cesarsebastiandev/portfolio.git --name="cesarsebastiandev" --email="cesarsebastian.dev@gmail.com" --base-href=/portfolio/
-
-
-
+          npm run ng -- deploy --repo=https://github.com/nombre_de_usuario_en_github/nombre_del_proyecto_en_github.git --name="nombre_de_usuario_en_github" --email="correo_electronico_de_tu_cuenta_de_github" --base-href=/nombre_del_proyecto_en_github/
